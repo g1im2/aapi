@@ -1,0 +1,132 @@
+{
+  "method": "post",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip,deflate,br",
+    "Connection": "keep-alive",
+    "Content-Type": "application/json,text/plain,*/*"
+  },
+  "body": {
+    "mode": "formdata",
+    "data": {
+      "page": {
+        "true": [
+          "1",
+          "2"
+        ],
+        "false": [
+          "100",
+          "200"
+        ]
+      },
+      "page_size": {
+        "true": [
+          "20",
+          "31",
+          "50"
+        ],
+        "false": [
+          "19",
+          "51"
+        ]
+      },
+      "sid_arr": {
+        "true": [
+          [
+            "1",
+            "2"
+          ],
+          [
+            "3",
+            "1"
+          ]
+        ],
+        "false": [
+          [
+            "11",
+            "22"
+          ],
+          [
+            "33"
+          ]
+        ]
+      },
+      "status_arr": {
+        "true": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "false": [
+          [
+            11,
+            23
+          ],
+          [
+            33,
+            44
+          ]
+        ]
+      },
+      "logistics_status_arr": {
+        "true": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "false": [
+          [
+            11,
+            22,
+            33
+          ],
+          [
+            44,
+            55
+          ]
+        ]
+      },
+      "time_type": {
+        "true": [
+          "create_at",
+          "delivered_at"
+        ],
+        "false": [
+          "created_at",
+          "delivered"
+        ]
+      },
+      "start_date": {
+        "true": [
+          "20220101",
+          "20220201"
+        ],
+        "false": [
+          "19000101",
+          "19220101"
+        ]
+      },
+      "end_date": {
+        "true": [
+          "20220201",
+          "20220301"
+        ],
+        "false": [
+          "18000102",
+          "18220301"
+        ]
+      }
+    }
+  }
+}

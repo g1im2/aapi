@@ -1,0 +1,9 @@
+{
+  "prerequest": {
+    "type": "text/javascript",
+    "exec": [
+      "console.log(\"hello world\")",
+      ""
+    ]
+  }
+}
